@@ -1,0 +1,721 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Hanlding Updates
+-----------------------------------------------------------------*/
+
+@font-face {
+    font-family: BeauSansRegular;
+    src: url("/css/fonts/PFBeauSansPro-Reg.woff") format("woff");
+}
+
+@font-face {
+    font-family: BeauSansBold;
+    src: url("/css/fonts/PFBeauSansPro-SemiBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: BeauSansLight;
+    src: url("/css/fonts/PFBeauSansPro-Light.woff") format("woff");
+}
+
+@font-face {
+    font-family: WoodFordBourne;
+    src: url("/css/fonts/WoodFordBourne-regular-webfont.woff") format("opentype");
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("/css/fonts/Montserrat-Regular.ttf") format("opentype");
+}
+
+
+
+#primary-menu.style-3 > ul > li:not(.current):hover > a {
+    color: #13B8BC;
+}
+
+.services-icons {
+	position: absolute;
+    bottom: -34px;
+    right: -98px;
+    height: 137px;
+    fill: #00000036;
+}
+body {
+	font-family: 'BeauSansLight', sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: 'BeauSansBold', sans-serif;
+}
+
+h4, h5, h6 {
+	font-family: 'BeauSansLight', sans-serif;
+}
+
+small { font-family: 'BeauSansLight', sans-serif; }
+.font-body { font-family: 'BeauSansLight', sans-serif; }
+.font-primary { font-family: 'BeauSansRegular', sans-serif; }
+.font-secondary { font-family: 'Crete Round', serif; }
+
+
+#logo {
+	font-family: 'BeauSansRegular', sans-serif;
+}
+
+#primary-menu ul li > a {
+	font-family: 'BeauSansRegular', sans-serif;
+}
+
+#primary-menu ul ul li > a {
+	font-family: 'BeauSansLight', sans-serif;
+}
+
+#primary-menu ul li .mega-menu-content.style-2 ul.mega-menu-column > li.mega-menu-title > a {
+	font-family: 'BeauSansRegular', sans-serif;
+}
+
+#top-search form input {
+	font-family: 'BeauSansRegular', sans-serif;
+}
+
+#top-account .dropdown-menu li a {
+	font-family: 'BeauSansLight', sans-serif;
+}
+
+.entry-meta li {
+	font-family: 'Crete Round', serif;
+}
+
+.entry-link {
+	font-family: 'BeauSansRegular', sans-serif;
+}
+
+.entry-link span {
+	font-family: 'Crete Round', serif;
+}
+
+.entry blockquote p {
+	font-family: 'Crete Round', serif;
+}
+
+.entry.entry-date-section span {
+	font-family: 'BeauSansRegular', sans-serif;
+}
+
+.more-link {
+	font-family: 'Crete Round', serif;
+}
+
+.comment-content .comment-author span a {
+	font-family: 'Crete Round', serif;
+}
+
+.wp-caption {
+	font-family: 'BeauSansLight', Georgia, "Times New Roman", Times, serif;
+}
+
+.button.button-desc {
+	font-family: 'BeauSansRegular', sans-serif;
+}
+
+.button.button-desc span {
+	font-family: 'Crete Round', serif;
+}
+
+.feature-box.fbox-center.fbox-italic p {
+	font-family: 'BeauSansLight', sans-serif;
+}
+
+ul.tab-nav-lg li a {
+	font-family: 'BeauSansRegular', sans-serif;
+}
+
+.testi-content p {
+	font-family: 'Crete Round', serif;
+}
+
+.team-title span {
+	font-family: 'Crete Round', serif;
+}
+
+.counter {
+	font-family: 'BeauSansRegular', sans-serif;
+}
+
+.skills li .progress-percent .counter {
+	font-family: 'BeauSansLight', sans-serif;
+}
+
+label {
+	font-family: 'BeauSansRegular', sans-serif;
+}
+
+.before-heading {
+	font-family: 'Crete Round', serif;
+}
+
+.widget-filter-links li a {
+	font-family: 'BeauSansRegular', sans-serif;
+}
+
+.nav-tree li a {
+	font-family: 'BeauSansRegular', sans-serif;
+}
+
+.nav-tree ul ul a {
+	font-family: 'BeauSansLight', sans-serif;
+}
+
+.wedding-head .and {
+	font-family: 'BeauSansRegular', sans-serif;
+}
+
+.wedding-head .last-name span {
+	font-family: 'Crete Round', serif;
+}
+
+.wedding-head .and {
+	font-family: 'Times New Roman', serif;
+}
+
+p.subtitle {
+	line-height: 1.4!important;
+    font-weight: 100;
+    margin-top: 0px;
+    color: #a9a9a9;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.testimonials{
+	padding-top: 75px;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-bottom: 50px;
+}
+@media(max-width: 768px){
+	.testimonials{
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+}
+.testimonials2{
+	margin-top: 30px;
+}
+.testimonials3{
+	margin-bottom: -50px;
+	margin-top: 50px;
+}
+
+.onestyle{
+	background-color: #fff;
+    border-radius: 25px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    border: #a7a7a7;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    height: 180px;
+}
+
+.oneStyleContainer{
+	width: 1020px;
+}
+
+.tg-divider {
+  height: 15px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100vw;
+  flex-flow: inherit;
+}
+
+.main-subtitle{
+	margin-top: 5px!important;
+}
+.whyus{
+	text-align: center;
+}
+.whyus h4{
+	font-size: 24px;
+}
+.whyus p{
+	font-size: 17px!important;
+	line-height: 1.7!important;
+}
+.anothersection{
+	margin-bottom: 110px;
+	margin-top: 90px;
+}
+.anothersection p.subtitle{
+	margin-top: 0px!important
+}
+.undostres h3{
+	font-size: 21px;
+}
+.undostres p{
+	font-size: 16px;
+}
+.servdesc ul li a{
+	font-size: 15px;
+}
+.servdesc p{
+	font-size: 18px;
+}
+.servdesc .midspace{
+	font-size: 0px;
+	margin-bottom: -16px;
+}
+.color-arrow{
+	position: absolute;
+    bottom: -100px;
+    right: -30px;
+    height: 360px;
+    opacity: 0.20;
+}
+.arrow-divider-container{
+	margin-top: -175px;
+	margin-bottom: -36px;
+	height: 195px;
+	position: relative;
+}
+
+.arrow-divider-container-tech{
+	margin-top: -30px;
+    margin-bottom: -110px;
+    height: 195px;
+    position: relative;
+}
+.arrow-divider-container-tech .color-arrow {
+	position: absolute;
+    bottom: 0px;
+    right: 0;
+    height: 360px;
+    opacity: 0.05;
+
+}
+
+.bold {
+	font-family: 'BeauSansBold', sans-serif;
+}
+
+.light {
+	font-family: 'BeauSansLight', sans-serif;
+}
+
+.newAboutSection {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.fixForBoxes {
+	margin-bottom: 50px
+}
+
+.fixForBoxes h3 {
+	font-size: 18px!important;
+}
+
+.newSubtitle{
+	margin-top: -15px;
+	margin-bottom: 45px;
+}
+.niceArrow1 {
+	font-size: 17px;
+	vertical-align: -2px;
+}
+.lonelyList {
+	line-height: 30px;
+	text-align: left;
+	margin-left: 5px!important;
+}
+
+.lonelyList.alittlefix {
+	margin-top: -5px!important;
+}
+
+.somespace {
+	line-height: 12px;
+	margin-bottom: 0px!important;
+}
+.justiright {
+	text-align: right;
+    margin-bottom: 1rem;
+}
+
+.homeiconslider {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 100px;
+}
+
+.whowearebottommargin {
+	margin-bottom: 20px;
+}
+
+.whowearebottommargin h1{
+	font-size: 40px;
+}
+.extradivider: {
+	 margin-top: 50px;
+    margin-bottom: 48px;
+}
+
+.secondivider {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.solutionscarrousel {
+    padding-top: 0;
+    padding-bottom: 58px;
+    margin-top: -24px!important;
+}
+
+.whowearetclass {
+	font-size: 28px;
+}
+
+.businessclass h3 {
+	font-size: 22px;
+	margin-bottom: -8px;
+}
+.businessclass h1 {
+	font-size: 36px;
+}
+.businessclass p {
+	font-size: 18px!important;
+	line-height: 24px!important;
+}
+
+.businessclass .modal-content p {
+	margin-top: 0px!important;
+    line-height: 29px;
+}
+
+.PropuestaDeValor { 
+	text-align: center;
+	font-size: 22px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    color: grey;
+    font-style: italic;
+}
+
+.theNewModal{
+	min-width: 66vw!important;
+    max-height: 60vh!important;
+    left: 17vw;
+}
+
+.theNewModal .row {
+	padding: 25px!important;
+}
+
+.theNewModal img{
+	opacity: 1;
+    border-color: grey;
+    border-style: solid;
+    border-radius: 6px;
+}
+
+.theNewModal .modal-title{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 900;
+	font-style: underline;
+	font-family: 'BeauSansBold', sans-serif;
+}
+
+.theNewModal .modal-header{
+	margin: 0px 20px;
+}
+
+.theNewModal_ForConsul{
+	min-width: 87vw!important;
+    max-height: 90vh!important;
+    left: 6vw;
+}
+
+.theNewModal_ForConsul .row {
+	padding: 25px!important;
+}
+
+.theNewModal_ForConsul img{
+	opacity: 1;
+    border-color: grey;
+    border-style: solid;
+    border-radius: 6px;
+}
+
+.theNewModal_ForConsul .modal-title{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 900;
+	font-style: underline;
+	font-family: 'BeauSansBold', sans-serif;
+}
+
+.theNewModal_ForConsul .modal-header{
+	margin: 0px 20px;
+}
+
+.extrabutton{
+	margin-top: 12px;
+    font-size: 17px;
+    background-color: black;
+    border-color: black;
+}
+
+.fixforsliderpages {
+	position: absolute!important;
+    max-width: 50vw;
+    text-align: right;
+    margin: 0 auto;
+    margin-top:15px;
+    left: auto;
+    right: 15px;
+/* Left 0 y right 0 para left justify */
+}
+
+.featureNewFontSize h3 {
+	font-size: 18px;
+}
+
+.featureNewFontSize p {
+	font-size: 16px;
+}
+
+.divInTheMiddle{
+	position: relative!important;
+    transform: translatey(-50%);
+    top: 50%!important;
+}
+
+.niceGraphicStyle {
+	background-color: #F9F9F9;
+	border: grey;
+	border-radius: 10px;
+	border-width: 2px;
+	margin-bottom: 50px;
+}
+
+.newtested {
+	margin-top: 50px;
+}
+.findusmove{
+	position: absolute;
+	bottom: 90vh;
+}
+
+@media (max-width: 991px) {
+  #logo {
+    height: 60px;
+  }
+}
+
+#template-contactform{
+  width: 95%;
+  margin-left: 2.5%  
+}
+
+@media (max-width: 991px) {
+  #template-contactform {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 991px) {
+  #primary-menu-trigger {
+    top: 8px;
+  }
+
+  .lead {
+    font-size: 1.15rem;
+  }
+}
+
+@media (max-width: 575px) {
+
+  #contact .container {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+
+  .google-map {
+    margin-left: 5px;
+  }
+}
+
+#lines .col-padding {
+    padding: 25px;
+}
+
+@media (max-width: 991px) {
+  #lines .col-padding {
+      padding: 25px;
+  }
+}
+
+@media (min-width: 1200px) {
+	.FirstHomeImage {
+		height: auto;
+    	width: 90%;
+	}
+}
+
+@media (max-width: 397px) {
+  #whyus .onestyle p {
+    line-height: 1.7 !important;
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 397px) {
+	.theNewModal {
+	    max-width: 100vw!important;
+    	top: 5vh!important;
+	}
+	.theNewModal .row {
+	padding: 5px!important;
+	}
+	.theNewModal_ForConsul {
+	    max-width: 100vw!important;
+    	top: 5vh!important;
+	}
+	.theNewModal_ForConsul .row {
+	padding: 5px!important;
+	}
+
+	.businessclass .modal-content p {
+		margin-top: 20px!important;
+	}
+
+}
+
+.whoWeAreConsul {
+	margin-right: 60px;
+	text-align: left!important;
+}
+
+.whoWeAreConsul p {
+	font-size: 18px;
+	font-weight: 0;
+	text-align: justify;
+}
+
+.whoWeAreConsul-Title {
+	margin-top: 0px;
+	text-align: right!important;
+}
+
+.whoWeAreConsul-Title:after {
+	display: inline-table;
+	margin-top:-10px;
+}
+
+.modalNewList {
+	text-align: left!important;
+}
+.modalNewList h3 {
+	margin-bottom: 3px;
+}
+.modalNewList p {
+	line-height: 20px!important;
+}
+
+@media (min-width: 600px) {
+	.two-feature-box-left {
+		width: 33vw;
+	    margin-left: -7vw;
+	}
+	.two-feature-box-right {
+		width: 33vw;
+	    margin-left: 1.5vw;
+	}
+	.home-facility-text-fix {
+		padding-left: 35px!important;
+	    padding-right: 35px!important;
+	}
+
+} 
+
+.home-row-middle { 
+margin-top: 60px; }
+#solutions {
+	margin-top:50px;
+}
+
+
+@media (max-width: 600px) {
+	.mobilekiller { display: none!important; }
+
+	#logo img { height: 60px!important; }
+
+	.whowearebottommargin h1 {     
+		font-size: 36px;
+    	text-align: center;
+    	margin-top: 0px;
+    }
+
+	.content-wrap {
+		padding:40px 10px;
+	}
+
+	.whowearetbtnlass a { 
+		left:12%; 
+	}
+	.home-row-middle {
+		margin-top: -50px;
+	}
+	#solutions {
+		margin-top: 0px;
+	}
+	#oc-slider { height: 150px; }
+
+	.fixforsliderpages {
+	    position: absolute!important;
+	    max-width: 100vw;
+	    text-align: center;
+	    margin: 0 auto;
+	    margin-top: 80px;
+	    left: 0;
+	    right: 0;
+	}
+	.slider-caption h2 {
+    font-size: 36px;}
+    .whoWeAreConsul {
+    margin-right: 0px;}
+    .whoWeAreConsul-Title {
+    text-align: center!important;}
+    .arrow-divider-container-tech .color-arrow { display: none;}
+    .mobile-tittlefix h1 { line-height: 36px; }
+	.businessclass h1 {
+    	font-size: 34px;
+    	line-height: 40px;}
+    .feature-box .fbox-icon { width: 30px; }
+    .feature-box {
+    padding: 0 0 0 38px; }
+    .theNewModal_ForConsul {
+    left: 0vw;}
+    .theNewModal_ForConsul img {margin-bottom: 60px;}
+    .modalNewList h3 {line-height: 20px;}
+    .businessclass .modal-content p {
+    margin-top: 5px!important; font-size: 16px!important;}
+    .modal-dialog .container { padding-left: 25px!important; padding-right: 25px!important; }
+    .anothersection { margin-top: 65px; }
+    .theNewModal { left:0!important; }
+    .fixforsliderpages.tech { top: -54px!important; }
+    .heading-block.fach h1 {line-height: 36px; }
+    .heading-block.exch h1 {line-height: 36px; }
+    .servdesc {  padding-left: 25px!important; padding-right: 25px!important;  }
+    .lonelyList.alittlefix {
+	margin-top: 7px!important;}
+}
+
