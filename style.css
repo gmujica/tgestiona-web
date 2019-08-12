@@ -13590,4 +13590,7 @@ body:not(.no-transition) #wrapper,
 
 .rating-container .filled-stars {
 	-webkit-text-stroke: 0px !important;
-	text-shadow: none !
+	text-shadow: none !important;
+}
+
+
